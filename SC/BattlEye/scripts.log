@@ -1,0 +1,9 @@
+17.02.2015 00:50:48: Grendel (192.168.1.109:2304) 06c1e3783613560b42581a2aa706d892 - #21 "{!isNull player};
+waituntil {!isnull (finddisplay 46)};			
+[] execVM "cmEarplugs\cm_veh_init.sqf";
+
+};
+
+if(isServer) then {
+
+[] "
