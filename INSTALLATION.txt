@@ -1,0 +1,25 @@
+Copy the files in the mission folder to your mission folder.
+
+Edit the follwoing in your battleye filters.
+
+at the end of the first line in publicvariable.txt add this:
+
+	!="HasEarplugMenu"
+
+
+at the end of the first line in setvariables.txt add this:
+
+
+	!="HasEarplugMenu"
+
+
+at the end of your execvm line in your scripts.txt add this
+
+
+	!="[] execVM "cmEarplugs\cm_veh_init.sqf";"
+
+
+shoudl look like this:
+
+
+	7 exec !="<execute expression=" !"RscDebugConsole_execute" !"execFSM" !"_executeStackedEventHandler" !"fn_execVM" !"fn_moduleExecute" !"fn_execRemote" !"fn_MPexec" !"bis_fnc_moduleExecute_activate" !"fn_tridentExecute" !"randomize_civ1" !"executed from" !"EPOCH_DebugGUI_exec" !"_handle = [_display] execVM _script;" !"execVM \"\A3\Structures_F\scripts" !="execVM \"\A3\Structures_F_EPC\Civ\PlayGround\scripts\Carousel_spin.sqf\"" !="[] execVM "cmEarplugs\cm_veh_init.sqf";"
