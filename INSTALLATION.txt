@@ -25,9 +25,6 @@ shoudl look like this:
 	7 exec !="<execute expression=" !"RscDebugConsole_execute" !"execFSM" !"_executeStackedEventHandler" !"fn_execVM" !"fn_moduleExecute" !"fn_execRemote" !"fn_MPexec" !"bis_fnc_moduleExecute_activate" !"fn_tridentExecute" !"randomize_civ1" !"executed from" !"EPOCH_DebugGUI_exec" !"_handle = [_display] execVM _script;" !"execVM \"\A3\Structures_F\scripts" !="execVM \"\A3\Structures_F_EPC\Civ\PlayGround\scripts\Carousel_spin.sqf\"" !="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
 
 
-
-
-
 THERE IS ALSO A PAIR OF TOGGLES IN THE OPR FILE
 
 You can toggle auto insert and auto remove.
