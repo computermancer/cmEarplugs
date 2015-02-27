@@ -1,13 +1,9 @@
+//START EARPLUGS CODE
+//////////////////////////////////////////////////////////////////////////
 waitUntil {vehicle player == player};
 waituntil {!isnull (finddisplay 46)};
-
-//TOGGLES!
-
-InsertAutoEarplugs=true;
-RemoveAutoEarplugs=true;
-
-
-//ExecVM !
-
-[] execVM "cmEarplugs\cm_veh_fun.sqf";
-
+5 fadeSound 1;
+earplugsout=true;	
+[] spawn cm_EP_LOOP;
+//cmEARPLUGS CODE END
+//////////////////////////////////////////////////////////////////////////

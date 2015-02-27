@@ -1,5 +1,8 @@
 Copy the files in the mission folder to your mission folder.
 
+	or if you already have some of them in your mission folder..
+	copy over the cmEARPLUGS code blocks in each file to yours.
+
 Edit the follwoing in your battleye filters.
 
 at the end of the first line in publicvariable.txt add this:
@@ -13,6 +16,11 @@ at the end of the first line in setvariables.txt add this:
 	!="HasEarplugMenu"
 
 
+
+at the end of your removeAllActions line in your scripts.txt add this
+
+	!="onPlayerKilled.sqf"
+
 at the end of your execvm line in your scripts.txt add this
 
 
@@ -23,8 +31,3 @@ shoudl look like this:
 
 
 	7 exec !="<execute expression=" !"RscDebugConsole_execute" !"execFSM" !"_executeStackedEventHandler" !"fn_execVM" !"fn_moduleExecute" !"fn_execRemote" !"fn_MPexec" !"bis_fnc_moduleExecute_activate" !"fn_tridentExecute" !"randomize_civ1" !"executed from" !"EPOCH_DebugGUI_exec" !"_handle = [_display] execVM _script;" !"execVM \"\A3\Structures_F\scripts" !="execVM \"\A3\Structures_F_EPC\Civ\PlayGround\scripts\Carousel_spin.sqf\"" !="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
-
-
-THERE IS ALSO A PAIR OF TOGGLES IN THE OPR FILE
-
-You can toggle auto insert and auto remove.

@@ -1,0 +1,32 @@
+This is the latest version.
+
+cmEarplugs version 1.0
+
+	I will begin documenting all changes and functionality from here on out.
+
+Current Functions:
+
+- Earplugs menu is added and available ONLY when you are in a vehicle.
+
+- You can insert or remove earplugs when in any vehicle.
+
+- Sound is reduced to 20 percent and returned to 100 percent.
+
+- Earplugs are auto-inserted and removed by default.
+
+- Configureable stuff has been added to cm_veh_fun.sqf
+
+- You can configure the following:
+		
+	-Toggle auto-remove
+	-Toggle auto-insert
+	-Configure how loud and fast the auto-earplugs works
+	-Configure the message displayed for the auto-remove and auto-insert.
+
+
+TECHNICAL NOTES:
+
+- When you die: Menu is removed from all vehicels you have been previously been in.
+
+
+

@@ -27,8 +27,8 @@
 7 addItem !="player addItem _craftItem;" !="player addItem _x;"
 7 addBackPack
 7 removeAllWeapons
-7 removeAllItems
-7 removeAllActions
+7 removeAllItems 
+7 removeAllActions !="onPlayerKilled.sqf"
 7 setTerrainGrid !="setTerrainGrid 25;"
 7 setViewDistance !"setViewDistance 1600"
 7 createGroup !="_grp = createGroup RESISTANCE;" !="if (isserver) then {\n_group = creategroup sidelogic;"

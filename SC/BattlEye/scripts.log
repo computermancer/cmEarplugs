@@ -1,0 +1,30 @@
+27.02.2015 13:26:27: Grendel (192.168.1.109:2304) 06c1e3783613560b42581a2aa706d892 - #30 "PlayerKilled.sqf"
+
+
+5 fadeSound 1;
+earplugsout = true;
+
+removeAllActions inCaseofDeath;
+removeAllActions theOneTrueName;
+
+inCase"
+27.02.2015 13:37:01: Grendel (192.168.1.109:2304) 06c1e3783613560b42581a2aa706d892 - #30 "PlayerKilled.sqf"
+
+
+5 fadeSound 1;
+earplugsout = true;
+
+removeAllActions inCaseofDeath;
+removeAllActions theOneTrueName;
+
+inCase"
+27.02.2015 13:44:20: Grendel (192.168.1.109:2304) 06c1e3783613560b42581a2aa706d892 - #30 "PlayerKilled.sqf"
+
+
+5 fadeSound 1;
+earplugsout = true;
+
+removeAllActions inCaseofDeath;
+removeAllActions theOneTrueName;
+
+inCase"
