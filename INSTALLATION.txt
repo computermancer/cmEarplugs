@@ -1,33 +1,37 @@
-Copy the files in the mission folder to your mission folder.
-
-	or if you already have some of them in your mission folder..
-	copy over the cmEARPLUGS code blocks in each file to yours.
+1. Copy the cmEarplugs folder to your mission folder (altis.Epoch)
+2. If you have init.sqf, copy the code in this init.sqf to yours.
+2a. If you do not have an init.sqf, copy this one over to your mission folder.
+3. Copy onPlayerKilled.sqf and onPlayerRespawn.sqf to your mission folder.
+4. Config your personal settings in the config.sqf file in the cmEarplgus folder.
+5. Edit your battleye filters.
 
 Edit the follwoing in your battleye filters.
 
+I. 
 at the end of the first line in publicvariable.txt add this:
 
 	!="HasEarplugMenu"
 
-
+II. 
 at the end of the first line in setvariables.txt add this:
-
 
 	!="HasEarplugMenu"
 
-
-
+III. 
 at the end of your removeAllActions line in your scripts.txt add this
 
 	!="onPlayerKilled.sqf"
 
+IIII. 
 at the end of your execvm line in your scripts.txt add this
-
 
 	!="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
 
-
-shoudl look like this:
-
+should look like this:
 
 	7 exec !="<execute expression=" !"RscDebugConsole_execute" !"execFSM" !"_executeStackedEventHandler" !"fn_execVM" !"fn_moduleExecute" !"fn_execRemote" !"fn_MPexec" !"bis_fnc_moduleExecute_activate" !"fn_tridentExecute" !"randomize_civ1" !"executed from" !"EPOCH_DebugGUI_exec" !"_handle = [_display] execVM _script;" !"execVM \"\A3\Structures_F\scripts" !="execVM \"\A3\Structures_F_EPC\Civ\PlayGround\scripts\Carousel_spin.sqf\"" !="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
+
+IIIII. 
+if u use notepad++: at the end of lines #52 displayAddEventHandler and  #59 displayRemoveEventHandler add this:
+ 	 
+ 	 !"cmPress_F4"
