@@ -50,13 +50,13 @@
 7 ctrlSetEventHandler !"BIS_fnc_guiMessage_status"
 7 addMPEventHandler
 7 addEventHandler !"displayAddEventHandler" !"ctrlAddEventHandler" !"FiredNear" !"EpeContactStart" !"InventoryClosed" !"GetOut" !"InventoryOpened" !"local" !"Respawn" !"Put" !"Take" !"Fired" !"Killed" !" [\"PostReset\",{BIS_EnginePPReset = true;} ];" !"_logic addeventhandler [\n\"local\""
-7 displayAddEventHandler !"[_display] call _fnc_animate;" !"tVersion select 4) == \"Development\") then" !"_display displayaddeventhandler\n[\n\"mousemoving\"," !"(findDisplay 46) displayAddEventHandler [\"KeyDown\",\"true\"];" !"(findDisplay 46) displayAddEventHandler [\"KeyDown\",\"_this call EPOCH_KeyDown\"];" !"_display displayaddeventhandler [\"unload\",\"uinamespace setvariable ['BIS_fnc_guiMess" !="findDisplay -1337 displayAddEventHandler ['Unload'"
+7 displayAddEventHandler !"[_display] call _fnc_animate;" !"tVersion select 4) == \"Development\") then" !"_display displayaddeventhandler\n[\n\"mousemoving\"," !"(findDisplay 46) displayAddEventHandler [\"KeyDown\",\"true\"];" !"(findDisplay 46) displayAddEventHandler [\"KeyDown\",\"_this call EPOCH_KeyDown\"];" !"_display displayaddeventhandler [\"unload\",\"uinamespace setvariable ['BIS_fnc_guiMess" !="findDisplay -1337 displayAddEventHandler ['Unload'" !"cmPress_F4"
 7 ctrlAddEventHandler !"rCfg >> \"refreshDelay\");" !" [\n\"draw\"," !" [\"buttonclick\"," !="(uiNamespace getVariable 'ESP_map') ctrlAddEventHandler['Draw', '_esp_targets = EPOCH_ESPMAP_TARGETS;"
 7 removeAllEventHandlers !="ctrlRemoveAllEventHandlers" !="_vehicle removeAllEventHandlers \"GetOut\";"
 7 removeAllMissionEventHandlers
 7 ctrlRemoveAllEventHandlers !="(uiNamespace getVariable 'ESP_map') ctrlRemoveAllEventHandlers 'Draw';"
 7 removeEventHandler !="displayRemoveEventHandler" !="player removeEventHandler ['Fired', 0];" !"_currentTarget removeEventHandler[\"EpeContactStart\", _onContactEH]" !" [_adminVar,objnull];\npublicvariable _adminVar;\nplayer removeeventhandler [\"respawn\",_respawn];"
-7 displayRemoveEventHandler !"BIS_fnc_guiMessage_status"
+7 displayRemoveEventHandler !"BIS_fnc_guiMessage_status" !"cmPress_F4"
 7 switchCamera
 7 remoteControl !"fn_moduleRemoteControl.sqf"
 7 drawIcon3D !="drawIcon3D[\"\x\addons\a3_epoch_code\Data\Member.paa\",_color,_pos,1,1,0,_text,1,0.025,\"PuristaMedium\"];\n}forEach EPOCH_ESP_TARGETS;" !"drawIcon3D[format[\"\x\addons\a3_epoch_code\Data\UI\loading_bar_%1.paa\",_stability],_color,(getPosATL EPOCH_stabilityTarget),5,5,0,\"\",1,0.05,\"PuristaMedium\"];" !"drawIcon3D[format[\"\x\addons\a3_epoch_code\Data\UI\loading_bar_%1.paa\",_num],_color,_pos,4,4,0,\"\",1,0.05,\"PuristaMedium\"];" !"EPOCH_drawIcon3dStability" !"EPOCH_drawIcon3d" !"if (_condition) then {\ndrawIcon3D [_icon, _color, _position, _sizeX, _sizeY, _angle, _text,"
