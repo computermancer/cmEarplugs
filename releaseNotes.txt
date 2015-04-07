@@ -1,32 +1,11 @@
-This is the latest version.
+This script will add my earplugs script. It will let you do the following:
 
-cmEarplugs version 1.0
+- NEW: You can now press F4 to manually toggle your earplugs at any time.
+- NEW: Config.sqf will allow you to configure a bunch of random stuff.
+- Auto-insert and remove earplugs when getting in and out of vehicles.
+- Inserting earplugs reduces volume down to about 25 percent.
+- Removing earplugs restores volume to 100 percent.
 
-	I will begin documenting all changes and functionality from here on out.
-
-Current Functions:
-
-- Earplugs menu is added and available ONLY when you are in a vehicle.
-
-- You can insert or remove earplugs when in any vehicle.
-
-- Sound is reduced to 20 percent and returned to 100 percent.
-
-- Earplugs are auto-inserted and removed by default.
-
-- Configureable stuff has been added to cm_veh_fun.sqf
-
-- You can configure the following:
-		
-	-Toggle auto-remove
-	-Toggle auto-insert
-	-Configure how loud and fast the auto-earplugs works
-	-Configure the message displayed for the auto-remove and auto-insert.
-
-
-TECHNICAL NOTES:
-
-- When you die: Menu is removed from all vehicels you have been previously been in.
 
 
 
