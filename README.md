@@ -1,17 +1,11 @@
 # cmEarplugs
 Earplugs script for Arma 3 Epoch (EPAH safe)
 
-This will add an earplugs menu to everycar on the server as well as any new cars from traders.
+This script will add my earplugs script. It will let you do the following:
 
-All you have to do is get in the car once if it does not already have the earplugs menu.
+- NEW: You can now press F4 to manually toggle your earplugs at any time.
+- NEW: Config.sqf will allow you to configure a bunch of random stuff.
+- Auto-insert and remove earplugs when getting in and out of vehicles.
+- Inserting earplugs reduces volume down to about 25 percent.
+- Removing earplugs restores volume to 100 percent.
 
-It will also remove the earplugs when you get out of a vehicle.
-
-
-Installation is pretty straight forward.
-
-Copy the files in the mission folder.
-
-Edit your battleye filters. Instructions are in the folder.
-
-And you are good to go.
