@@ -4,6 +4,9 @@ waitUntil {vehicle player == player};
 waituntil {!isnull (finddisplay 46)};
 5 fadeSound 1;
 earplugsout=true;	
+SuperFunEPEHVariable = false;
 [] spawn cm_EP_LOOP;
+[] spawn cmEPEHLoop;
+
 //cmEARPLUGS CODE END
 //////////////////////////////////////////////////////////////////////////
