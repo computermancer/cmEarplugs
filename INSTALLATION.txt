@@ -5,7 +5,7 @@
 4. Config your personal settings in the config.sqf file in the cmEarplgus folder.
 5. Edit your battleye filters.
 
-Edit the follwoing in your battleye filters.
+Edit the following in your battleye filters.
 
 I. 
 at the end of the first line in publicvariable.txt add this:
