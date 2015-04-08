@@ -34,4 +34,4 @@ should look like this:
 IIIII. 
 if u use notepad++: at the end of lines #52 displayAddEventHandler and  #59 displayRemoveEventHandler add this:
  	 
- 	 !"cmPress_F4"
+	!"cm_F4_KeyVar"  !"cm_F5_KeyVar"  !"cm_F6_KeyVar"  !"cm_Insert_KeyVar"  !"cm_Home_KeyVar" !"cm_UpArrow_KeyVar"  !"cm_DownArrow_KeyVar"  !"cm_LeftArrow_KeyVar"  !"cm_RightArrow_KeyVar"  !"cm_RightControl_KeyVar" !"cm_RightAlt_KeyVar"
