@@ -3,7 +3,6 @@
 waitUntil {vehicle player == player};
 waituntil {!isnull (finddisplay 46)};
 
-
 //////////////////////////////////////////////////////////////////////////
 		_OPRbreathing = alive player;
 		_OPRtrig=true;
@@ -24,13 +23,20 @@ waituntil {!isnull (finddisplay 46)};
 						
 					};
 			};
-			
+
+uisleep 1;
+
+if (isNil {player getVariable "Has_EPEH_Loop"}) then {player setVariable["Has_EPEH_Loop", "NEVER"];};
+
 //////////////////////////////////////////////////////////////////////////
 5 fadeSound 1;
 earplugsout=true;	
 SuperFunEPEHVariable = false;
 /////////////////////////////////////////////////////////////////////////
-[] spawn cm_EP_LOOP;
-[] spawn cm_EPEH_Loop;
+
+_hasEPEH = player getVariable "Has_EPEH_Loop";
+if ((_hasEPEH == "NEVER")) then {[] spawn cm_EPEH_Loop;[] spawn cm_EP_LOOP;};	
+
+
 //cmEARPLUGS CODE END
 //////////////////////////////////////////////////////////////////////////
