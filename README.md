@@ -10,5 +10,5 @@ Earplugs script for Arma 3 Epoch (EPAH safe)
 - Removing earplugs restores volume to 100 percent.
 
 
--Thanks to mgm on epochmod.com for helping with keypress config technique
+*Thanks to mgm on epochmod.com for helping with keypress config technique
 
