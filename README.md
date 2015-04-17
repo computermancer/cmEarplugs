@@ -1,4 +1,4 @@
-# cmEarplugs
+# cmEarplugs 2.0
 Earplugs script for Arma 3 Epoch (EPAH safe)
 
 - This script allows you to put in "earplugs".
