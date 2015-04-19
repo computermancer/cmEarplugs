@@ -7,31 +7,19 @@
 
 Edit the following in your battleye filters.
 
-I. 
-at the end of the first line in publicvariable.txt add this:
-
-	!="HasEarplugMenu"
-
-II. 
-at the end of the first line in setvariables.txt add this:
-
-	!="HasEarplugMenu"
-
-III. 
-at the end of your removeAllActions line in your scripts.txt add this
-
-	!="onPlayerKilled.sqf"
-
-IIII. 
-at the end of your execvm line in your scripts.txt add this
-
-	!="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
-
-should look like this:
-
-	7 exec !="<execute expression=" !"RscDebugConsole_execute" !"execFSM" !"_executeStackedEventHandler" !"fn_execVM" !"fn_moduleExecute" !"fn_execRemote" !"fn_MPexec" !"bis_fnc_moduleExecute_activate" !"fn_tridentExecute" !"randomize_civ1" !"executed from" !"EPOCH_DebugGUI_exec" !"_handle = [_display] execVM _script;" !"execVM \"\A3\Structures_F\scripts" !="execVM \"\A3\Structures_F_EPC\Civ\PlayGround\scripts\Carousel_spin.sqf\"" !="[] execVM "cmEarplugs\cm_veh_fun.sqf";"
-
-IIIII. 
-if u use notepad++: at the end of lines #52 displayAddEventHandler and  #59 displayRemoveEventHandler add this:
- 	 
-	!"cmPress_F4" !"cmPress_F5" !"cmPress_F6" !"cmPress_Insert" !"cmPress_Home" !"cmPress_RightControl" !"cmPress_RightAlt" !"cmPress_DownArrow" !"cmPress_UpArrow" !"cmPress_LeftArrow" !"cmPress_RightArrow"
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+scripts.txt (at the end of the line add the following)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////                                        
+First Line :       !"bis_fnc_initVehicle" !"BIS_fnc_setVehicleMass_fsm" !"BIS_fnc_arsenal_type"      
+                
+Line 53 (54 on notepad++) :            !"EP_LOOP"
+Line 53 (54 on notepad++) :            !"cmKeyPress"
+Line 22 (23 on notepad++) :            !"clock.sqf"
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+PublicVariable.txt (at the end of the line add the following)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+First Line:                             !"cmEarplugs_hotkeyDIKCodeNumber"
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
