@@ -15,7 +15,7 @@ scripts.txt (at the end of the line add the following)
                 
  (displayAddEventHandler)  Line 53 (54 on notepad++) :         !"EP_LOOP"
  (displayAddEventHandler)  Line 53 (54 on notepad++)           !"cmKeyPress"
- (              exec                    )   Line 22 (23 on notepad++) :           !"clock.sqf"
+ (              exec    )   Line 22 (23 on notepad++) :           !"clock.sqf"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 PublicVariable.txt (at the end of the line add the following)
