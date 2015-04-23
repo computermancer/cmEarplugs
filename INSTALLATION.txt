@@ -18,7 +18,7 @@ scripts.txt (at the end of the line add the following)
  (              exec       )  Line 22 (23 on notepad++) :         !"clock.sqf"
  (    removeAllActions     )  Line 31 (32 on notepad++) :         !"onplayerkilled.sqf"
  (displayRemoveEventHandler)  Line 59 (60 on notepad++) :         !"cmKeyPress"
-
+ (removeAllEventHandlers)     Line 59 (60 on notepad++) :         !"cmKeyPress"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 PublicVariable.txt (at the end of the line add the following)
