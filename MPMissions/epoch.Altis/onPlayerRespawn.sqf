@@ -37,7 +37,7 @@ SuperFunEPEHVariable = false;
 uisleep 1;
 _hasEPEH = player getVariable "Has_EPEH_Loop";
 uisleep 1;
-if (_hasEPEH == "NEVER") then {[] spawn cm_EPEH_Loop;[] spawn cm_EP_LOOP;};	
+if (_hasEPEH == "NEVER") then {[] spawn cm_EP_LOOP;};	
 
 if (cmEarplugsKeyPressEnabled) then {
 	[] spawn {cmKeyPress = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == cmEarplugs_hotkeyDIKCodeNumber) then {[] call cm_Earplugs_FUNc;};"];};
